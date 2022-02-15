@@ -4,7 +4,7 @@
 
 https://youtu.be/OFOvPMHm5nc
 
-<h6> ☑ Utilize o link acima para entender melhor a usabilidade</h6>
+<h6> ☑ Utilize o link acima para entender melhor a usabilidade (Tempo do video 11min passando por GET|POST|PUT|PATH|DELETE ...)</h6>
 </h1>
 
 ### Tecnologias utilizadas.
@@ -18,7 +18,7 @@ https://youtu.be/OFOvPMHm5nc
 E necessário o download e instalação do python na máquina, neste link tem um tutorial em 2 minutos
  https://www.youtube.com/watch?v=FcfalMf9bRY.
 
-## Após intalar o python 
+## Após instalar o python 
 Ao fazer o download ou clonar o projeto na raiz do mesmo possui uma pasta com o nome **venv** está pasta possui as dependências do projeto caso você queira reinstalar as mesmas e so excluir a pasta **venv** e seguir o passo abaixo.
 
 ## Instalando dependências e criando o virtual venv para execução do projeto
