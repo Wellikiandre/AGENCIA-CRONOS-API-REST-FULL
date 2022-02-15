@@ -22,6 +22,7 @@ from integrantes_equipe.api.viewsets import IntegrantesEquipeViewSet
 from servico.api.viewsets import ServicoViewSet
 from posts.api.viewsets import PostsViewSet
 
+from django.views.generic import TemplateView
 
 router = routers.DefaultRouter()
 router.register(r'integrantes_equipe',IntegrantesEquipeViewSet)
