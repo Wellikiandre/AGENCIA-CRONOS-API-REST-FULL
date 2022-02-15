@@ -19,10 +19,11 @@ from django.urls import path,include
 from rest_framework import routers
 
 from integrantes_equipe.api.viewsets import IntegrantesEquipeViewSet
-
+from servico.api.viewsets import ServicoViewSet
 
 router = routers.DefaultRouter()
 router.register(r'integrantes_equipe',IntegrantesEquipeViewSet)
+router.register(r'servico',ServicoViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

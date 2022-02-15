@@ -1,5 +1,5 @@
 from django.db import models
-
+from servico.models import Servico
 # Create your models here.
 
 class Integrantes_Equipe(models.Model):
@@ -14,6 +14,8 @@ class Integrantes_Equipe(models.Model):
     admin = models.BooleanField(default=False)
     cargo = models.CharField(max_length=100,blank=False,null=True)
     cpf_cnpj = models.IntegerField(blank=False, null=False)
+    id_servico = models.ForeignKey(Servico,on_delete=models.CASCADE, related_name='integrantes_equipes', blank=True, null=True)
+
 
     class Meta:
         managed = True
