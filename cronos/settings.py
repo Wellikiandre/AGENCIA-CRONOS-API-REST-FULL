@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'integrantes_equipe',
     'servico',
+    'posts'
 
 ]
 
