@@ -27,5 +27,5 @@ Ao fazer o download ou clonar o projeto na raiz do mesmo possui uma pasta com o 
  3) Acessar dentro de venv a pasta venv\Script e executar o **activate**
  4) Com o activate inicializado retornar a raiz do projeto com o comando **cd ..** 2x vezes.
  5) Execute o comando para instalar as depedências **pip install django djangorestframework**
- 6) Após este processo e só correr para o abraço e executar o comando **python manager.py runserver** para inicializar o projeto.
+ 6) Após este processo e só correr para o abraço e executar o comando **python manager.py runserver** para inicializar o projeto
 
